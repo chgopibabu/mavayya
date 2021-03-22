@@ -1,0 +1,49 @@
+
+
+balayya is best hero
+
+git init    ------- it is used to intiated 
+ls-----------------list of the files
+ls -a
+
+git config --global user.name "Polarapu Prasad"------used to create the user name
+git config --global user.email "devopstraining2015@gmail.com"   created to the user mail id
+
+git config –list --- it used to show the user name and mail id
+
+touch file1--- it is used to create the file
+ls
+git status------ its used show the file in which stage
+git add file1--------- it is moved to workspace to staging 
+git status
+git commit -m "test commit" file1-------  it is used to move the file in staging to local repositry
+git status 
+git log----- it is used to show alla logs in local repositry
+git show cid ---- it is used to  show the file names
+
+touch file2 file3 file4
+ls
+git status
+git add file2 file3 file4
+or
+git add .
+or
+git add *  --- it used to move the files at a time workspace to stagging
+or
+git add -A
+git status
+git commit -m "label"
+git log
+
+git reset HEAD file-name  (staging to workspace)
+git reset --soft cid  (local to staging)
+git reset --mixed cid  (local to workspace)
+git commit -m "label" file-name (workspace to local) *only modified files
+
+
+
+----------------------------------------------
+
+git clone https://github.com/Avinashb99/DevOps.git
+ls
+cd DevOps
